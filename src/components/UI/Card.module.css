@@ -1,0 +1,25 @@
+.card {
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+h1{
+  color:#282828;
+font-family:assistant;
+font-weight:700;
+line-height:33px;
+margin:0px 0px 20px;
+}
+.content{
+  display: flex;
+  color: red;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}

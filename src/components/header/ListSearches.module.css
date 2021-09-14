@@ -1,0 +1,70 @@
+.wrapper {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  padding: 3px 0;
+  background: white;
+  text-align: center;
+  margin: 1em;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: black;
+  opacity: 0.5;
+
+  z-index: -1;
+}
+.wrapper h3 {
+  color: white;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: black;
+  font-family: assistant;
+  font-size: 15px;
+  font-weight: 700px;
+  line-height: 33px;
+}
+.wrapper h3 span {
+  background-color: #5c5b5b;
+}
+
+
+.wrapper a {
+  color: white;
+  padding: 1em 1.5em;
+  font-weight: bold;
+
+  text-decoration: none;
+}
+
+.wrapper a:hover {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: blue;
+}
+
+.wrapper a:active {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: blue;
+}
+
+.wrapper a:visited {
+  background-color: #ccc;
+}
+.wrapper p {
+  color: white;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 25px;
+  margin: 0px 0px 20px;
+}
+.wrapper select {
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  width: 30%;
+}
